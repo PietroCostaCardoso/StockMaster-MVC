@@ -1,0 +1,24 @@
+# Dependências do Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testes e Cobertura
+coverage/
+
+# Build de produção (se houver)
+dist/
+build/
+
+# Arquivos de ambiente e segurança (chaves, senhas)
+.env
+.DS_Store
+
+# IDEs e Editores (Opcional - evita subir configurações locais do seu editor)
+.idea/
+.vscode/

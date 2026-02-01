@@ -1,0 +1,41 @@
+<div class="home-header">
+    {{#if search}}
+    <h1>Você está buscando por: <span>{{search}}</span></h1>
+        {{#if itemsQty }}
+            <p>Foram encontrados <span>{{itemsQty}}</span> item(ns)</p>
+        {{else}}
+            <p>Nenhum item encontrado para o termo <span>{{search}}</span></p>
+        {{/if}}
+    {{else}}
+    <h1>Gerencie o seu <span>Estoque</span>:</h1>
+    {{/if}}
+    <form action="/" method="GET">
+        <input type="text" name="search" placeholder="Buscar produto...">
+        <input type="submit" class="btn" value="Buscar">
+    </form>
+    <div class="order-container">
+        <span>Ordenar por:</span>  
+        <form action="/" method="GET">
+            <input type="hidden" name="search" value="{{this.search}}">
+            <input type="hidden" name="order" value="new">
+            <button type="submit"><i class="bi bi-arrow-up"></i> Mais novos</button>
+        </form>
+        <form action="/" method="GET">
+            <input type="hidden" name="search" value="{{this.search}}">
+            <input type="hidden" name="order" value="old">
+            <button type="submit"><i class="bi bi-arrow-down"></i> Mais antigos</button>
+        </form>
+        <a href="/">Limpar</a>
+    </div>
+</div>
+<div class="inventory-container">
+    {{#each items}}
+        <figure>
+            <div class="item-title">{{this.title}}</div>
+            <figcaption>
+                <span>Qtd: {{this.quantity}}</span> | 
+                <span>Categoria: {{this.category}}</span>
+            </figcaption>
+        </figure>
+    {{/each}}
+</div>
