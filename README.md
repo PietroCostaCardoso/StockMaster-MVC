@@ -54,6 +54,11 @@ A robust application manager developed in **Node.js**, following the **MVC (Mode
 * `/public`: Static assets like CSS and images.
 * `/routes`: Application endpoint definitions.
 * `/views`: Dynamic HTML templates (Handlebars).
+---
+## 👤 Autor
+
+Desenvolvido com dedicação por **Pietro Costa Cardoso**.  
+Se este projeto te ajudou, considere dar uma ⭐ no repositório!
 
 
 
