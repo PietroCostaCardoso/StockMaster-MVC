@@ -1,3 +1,11 @@
+/**
+*StockMaster-MVC
+*Desenvolvido por: Pietro costa cardoso
+*Ano: 2026
+**/
+
+
+
 const express = require("express");
 const exphbs = require("express-handlebars");
 const session = require("express-session");
