@@ -12,7 +12,7 @@
 ## 🇧🇷 Português
 
 ### 📋 Sobre o Projeto
-Este é um gerenciador de Inventário robusto desenvolvido em **Node.js**, seguindo a arquitetura **MVC (Model-View-Controller)**. O projeto foca em organização, segurança e persistência de dados, sendo ideal para aplicações escaláveis.
+Este é um gerenciador de Inventário robusto desenvolvido em **Node.js**, seguindo a arquitetura **MVC (Model-View-Controller)**. O projeto foca em organização, segurança e persistência de dados, sendo ideal para aplicações escaláveis.........
 
 ### 🛠️ Tecnologias Utilizadas
 * **Backend:** Node.js com Express.
