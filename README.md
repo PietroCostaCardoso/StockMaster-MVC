@@ -55,6 +55,20 @@ A robust application manager developed in **Node.js**, following the **MVC (Mode
 * `/routes`: Application endpoint definitions.
 * `/views`: Dynamic HTML templates (Handlebars).
 ---
+### 📸 Screenshots
+<div align="center">
+ <img src="https://github.com/user-attachments/assets/a354201d-059c-49f7-b9d4-cdb7e4caea6f" width="45%" />
+ <img src="https://github.com/user-attachments/assets/d3043e69-792f-4e28-a306-18f130100fb9" width="45%" />
+ <img src="https://github.com/user-attachments/assets/10bcca32-37fd-4ae6-bfbd-96351e61a588" width="45%" />
+ <img src="https://github.com/user-attachments/assets/d9e3f68a-399e-4fda-98d2-d02da0659960" width="45%" />
+ <img src="https://github.com/user-attachments/assets/8815551d-0cf8-46d2-a03c-b8097ff54b47" width="45%" />
+
+
+
+</div>
+</div>
+
+
 ## 👤 Autor
 
 Desenvolvido com dedicação por **Pietro Costa Cardoso**.  
