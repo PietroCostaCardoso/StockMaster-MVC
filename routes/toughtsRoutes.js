@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const ToughtController = require("../controllers/ToughtController");
 
-// Middleware para proteção de rotas: garante que apenas usuários autenticados acessem as funcionalidades
+// Middleware para proteção de rotas: garante que apenas usuários autenticados acessem as funcionalidades.
 const checkAuth = require("../helpers/auth").checkAuth;
 
 router.get("/add", checkAuth, ToughtController.createTought);
