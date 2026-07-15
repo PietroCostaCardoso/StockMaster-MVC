@@ -65,11 +65,13 @@ A robust application manager developed in **Node.js**, following the **MVC (Mode
 </div>
 </div>
 
-
 ## 👤 Autor
 
 Desenvolvido com dedicação por **Pietro Costa Cardoso**.  
 Se este projeto te ajudou, considere dar uma ⭐ no repositório!
 
+Link original: https://github.com/PietroCostaCardoso/StockMaster-MVC
+
+Pietro Costa Cardoso. Todos os direitos reservados sob a Licença MIT.
 
 
